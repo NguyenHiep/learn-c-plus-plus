@@ -1,0 +1,18 @@
+# ninja log v6
+8	438	7468715426353105	CMakeFiles/LapTrinhHuongDoiTuong.dir/main.cpp.obj	6391e137112bf89e
+27	560	7468697419355519	CMakeFiles/LapTrinhHuongDoiTuong.dir/helloworld.cpp.obj	4d7402603ae1ac39
+494	614	7468875747427160	SinhVien.exe	bef6f5ba21aa5a52
+4	399	7469114593133380	build.ninja	39b9d961f0f1f3a7
+438	545	7468715430657242	LapTrinhHuongDoiTuong.exe	fe9564ed71666350
+6	421	7468699764306297	CMakeFiles/LapTrinhHuongDoiTuong.dir/testhello.cpp.obj	773bf7df8332d987
+4	494	7468875742535053	CMakeFiles/SinhVien.dir/SinhVien.cpp.obj	e2bafa62a854851e
+3	435	7468702440726488	CMakeFiles/HelloWord.dir/helloworld.cpp.obj	64da0bb7d05f56f2
+2	470	7468702512452087	CMakeFiles/TestHello.dir/testhello.cpp.obj	fea9ce08a02e15ac
+4	499	7469066124495483	CMakeFiles/ThaoTacChuoi.dir/ThaoTacChuoi.cpp.obj	489e616cb2199a40
+499	602	7469066129452652	ThaoTacChuoi.exe	29c54e2b4de83683
+2	530	7469115023055198	CMakeFiles/LuyenThi.dir/LuyenThi.cpp.obj	a4c80636388a4d9d
+531	645	7469115028329924	LuyenThi.exe	ec371033989051e3
+6	445	7469120939402674	CMakeFiles/LuyenThi.dir/LuyenThi.cpp.obj	a4c80636388a4d9d
+445	563	7469120943795743	LuyenThi.exe	ec371033989051e3
+5	499	7469122033439886	CMakeFiles/LuyenThi.dir/LuyenThi.cpp.obj	a4c80636388a4d9d
+500	614	7469122038389277	LuyenThi.exe	ec371033989051e3

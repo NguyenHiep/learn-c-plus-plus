@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LapTrinhHuongDoiTuong",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "LapTrinhHuongDoiTuong::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LapTrinhHuongDoiTuong-Debug-20da0fc7558cd2b910eb.json",
+					"name" : "LapTrinhHuongDoiTuong",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LuyenThi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LuyenThi-Debug-53adca465e66a12c9e84.json",
+					"name" : "LuyenThi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SinhVien::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SinhVien-Debug-8fcc4d40790075346ae2.json",
+					"name" : "SinhVien",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ThaoTacChuoi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ThaoTacChuoi-Debug-320e75d2afe309b34458.json",
+					"name" : "ThaoTacChuoi",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/LienThongDaiHoc/LapTrinhHuongDoiTuong/cmake-build-debug",
+		"source" : "D:/LienThongDaiHoc/LapTrinhHuongDoiTuong"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,6 @@
+D:/LienThongDaiHoc/LapTrinhHuongDoiTuong/cmake-build-debug/CMakeFiles/LapTrinhHuongDoiTuong.dir
+D:/LienThongDaiHoc/LapTrinhHuongDoiTuong/cmake-build-debug/CMakeFiles/SinhVien.dir
+D:/LienThongDaiHoc/LapTrinhHuongDoiTuong/cmake-build-debug/CMakeFiles/ThaoTacChuoi.dir
+D:/LienThongDaiHoc/LapTrinhHuongDoiTuong/cmake-build-debug/CMakeFiles/LuyenThi.dir
+D:/LienThongDaiHoc/LapTrinhHuongDoiTuong/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/LienThongDaiHoc/LapTrinhHuongDoiTuong/cmake-build-debug/CMakeFiles/rebuild_cache.dir
