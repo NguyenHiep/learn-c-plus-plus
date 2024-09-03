@@ -3,5 +3,6 @@ D:/LienThongDaiHoc/LapTrinhHuongDoiTuong/cmake-build-debug/CMakeFiles/SinhVien.d
 D:/LienThongDaiHoc/LapTrinhHuongDoiTuong/cmake-build-debug/CMakeFiles/ThaoTacChuoi.dir
 D:/LienThongDaiHoc/LapTrinhHuongDoiTuong/cmake-build-debug/CMakeFiles/LuyenThi.dir
 D:/LienThongDaiHoc/LapTrinhHuongDoiTuong/cmake-build-debug/CMakeFiles/NhanVien.dir
+D:/LienThongDaiHoc/LapTrinhHuongDoiTuong/cmake-build-debug/CMakeFiles/NhanVien_Contro.dir
 D:/LienThongDaiHoc/LapTrinhHuongDoiTuong/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/LienThongDaiHoc/LapTrinhHuongDoiTuong/cmake-build-debug/CMakeFiles/rebuild_cache.dir

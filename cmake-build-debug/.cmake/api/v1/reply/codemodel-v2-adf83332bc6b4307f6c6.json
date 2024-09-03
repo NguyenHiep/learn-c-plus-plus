@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -63,6 +65,13 @@
 					"id" : "NhanVien::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-NhanVien-Debug-df0fcc47583634362f75.json",
 					"name" : "NhanVien",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NhanVien_Contro::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NhanVien_Contro-Debug-456d5f12ffab20f03838.json",
+					"name" : "NhanVien_Contro",
 					"projectIndex" : 0
 				},
 				{
