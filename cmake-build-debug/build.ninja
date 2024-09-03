@@ -172,6 +172,39 @@ build LuyenThi.exe: CXX_EXECUTABLE_LINKER__LuyenThi_Debug CMakeFiles/LuyenThi.di
   TARGET_IMPLIB = libLuyenThi.dll.a
   TARGET_PDB = LuyenThi.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target NhanVien
+
+
+#############################################
+# Order-only phony target for NhanVien
+
+build cmake_object_order_depends_target_NhanVien: phony || .
+
+build CMakeFiles/NhanVien.dir/NhanVien.cpp.obj: CXX_COMPILER__NhanVien_unscanned_Debug D$:/LienThongDaiHoc/LapTrinhHuongDoiTuong/NhanVien.cpp || cmake_object_order_depends_target_NhanVien
+  DEP_FILE = CMakeFiles\NhanVien.dir\NhanVien.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\NhanVien.dir
+  OBJECT_FILE_DIR = CMakeFiles\NhanVien.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NhanVien
+
+
+#############################################
+# Link the executable NhanVien.exe
+
+build NhanVien.exe: CXX_EXECUTABLE_LINKER__NhanVien_Debug CMakeFiles/NhanVien.dir/NhanVien.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NhanVien.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NhanVien.exe
+  TARGET_IMPLIB = libNhanVien.dll.a
+  TARGET_PDB = NhanVien.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -202,6 +235,8 @@ build LapTrinhHuongDoiTuong: phony LapTrinhHuongDoiTuong.exe
 
 build LuyenThi: phony LuyenThi.exe
 
+build NhanVien: phony NhanVien.exe
+
 build SinhVien: phony SinhVien.exe
 
 build ThaoTacChuoi: phony ThaoTacChuoi.exe
@@ -214,7 +249,7 @@ build ThaoTacChuoi: phony ThaoTacChuoi.exe
 #############################################
 # Folder: D:/LienThongDaiHoc/LapTrinhHuongDoiTuong/cmake-build-debug
 
-build all: phony LapTrinhHuongDoiTuong.exe SinhVien.exe ThaoTacChuoi.exe LuyenThi.exe
+build all: phony LapTrinhHuongDoiTuong.exe SinhVien.exe ThaoTacChuoi.exe LuyenThi.exe NhanVien.exe
 
 # =============================================================================
 # Built-in targets

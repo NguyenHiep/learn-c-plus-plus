@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -52,21 +54,28 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "LuyenThi::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LuyenThi-Debug-53adca465e66a12c9e84.json",
+					"jsonFile" : "target-LuyenThi-Debug-d3d4f8fd122ac707c7f0.json",
 					"name" : "LuyenThi",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "NhanVien::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NhanVien-Debug-df0fcc47583634362f75.json",
+					"name" : "NhanVien",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "SinhVien::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SinhVien-Debug-8fcc4d40790075346ae2.json",
+					"jsonFile" : "target-SinhVien-Debug-17945fa50207db8d8857.json",
 					"name" : "SinhVien",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ThaoTacChuoi::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ThaoTacChuoi-Debug-320e75d2afe309b34458.json",
+					"jsonFile" : "target-ThaoTacChuoi-Debug-b8d4e17eb898a0db74c5.json",
 					"name" : "ThaoTacChuoi",
 					"projectIndex" : 0
 				}
