@@ -1,25 +1,32 @@
-#include<iostream>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
-class Employee {
-    char ten[30];
-    char ms[10];
-    int tuoi;
+class Complex {
+    double real;
+    double imag;
 
-public :
-    Employee(char te[], char m[], int tu): tuoi(tu) {
-        strcpy(ten, te);
-        strcpy(ms, m);
-    }
+    public:
+        Complex(double r = 0.0, double i = 0.0) : real(r), imag(i) {}
 
-    void Display() {
-        cout << "Ma so: " << ms << " Ten: " << ten << " Tuoi:" << tuoi << endl;
-    }
+        double mag() {
+            return getMag();
+        }
+
+        operator double () {
+            return getMag();
+        }
+
+    private:
+        double getMag() {
+            return sqrt(real * real + imag * imag);
+        }
 };
 
 int main() {
-    Employee e(" Nguyen Van A", "001", 20);
-
-    e.Display();
+    Complex com(3.0, 4.0);
+    cout << com.mag();
+    cout << com;
     return 0;
 }

@@ -238,6 +238,39 @@ build NhanVien_Contro.exe: CXX_EXECUTABLE_LINKER__NhanVien_Contro_Debug CMakeFil
   TARGET_IMPLIB = libNhanVien_Contro.dll.a
   TARGET_PDB = NhanVien_Contro.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target NapChongToanTuPhanSo
+
+
+#############################################
+# Order-only phony target for NapChongToanTuPhanSo
+
+build cmake_object_order_depends_target_NapChongToanTuPhanSo: phony || .
+
+build CMakeFiles/NapChongToanTuPhanSo.dir/NapChongToanTuPhanSo.cpp.obj: CXX_COMPILER__NapChongToanTuPhanSo_unscanned_Debug D$:/LienThongDaiHoc/LapTrinhHuongDoiTuong/NapChongToanTuPhanSo.cpp || cmake_object_order_depends_target_NapChongToanTuPhanSo
+  DEP_FILE = CMakeFiles\NapChongToanTuPhanSo.dir\NapChongToanTuPhanSo.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\NapChongToanTuPhanSo.dir
+  OBJECT_FILE_DIR = CMakeFiles\NapChongToanTuPhanSo.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NapChongToanTuPhanSo
+
+
+#############################################
+# Link the executable NapChongToanTuPhanSo.exe
+
+build NapChongToanTuPhanSo.exe: CXX_EXECUTABLE_LINKER__NapChongToanTuPhanSo_Debug CMakeFiles/NapChongToanTuPhanSo.dir/NapChongToanTuPhanSo.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NapChongToanTuPhanSo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NapChongToanTuPhanSo.exe
+  TARGET_IMPLIB = libNapChongToanTuPhanSo.dll.a
+  TARGET_PDB = NapChongToanTuPhanSo.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -268,6 +301,8 @@ build LapTrinhHuongDoiTuong: phony LapTrinhHuongDoiTuong.exe
 
 build LuyenThi: phony LuyenThi.exe
 
+build NapChongToanTuPhanSo: phony NapChongToanTuPhanSo.exe
+
 build NhanVien: phony NhanVien.exe
 
 build NhanVien_Contro: phony NhanVien_Contro.exe
@@ -284,7 +319,7 @@ build ThaoTacChuoi: phony ThaoTacChuoi.exe
 #############################################
 # Folder: D:/LienThongDaiHoc/LapTrinhHuongDoiTuong/cmake-build-debug
 
-build all: phony LapTrinhHuongDoiTuong.exe SinhVien.exe ThaoTacChuoi.exe LuyenThi.exe NhanVien.exe NhanVien_Contro.exe
+build all: phony LapTrinhHuongDoiTuong.exe SinhVien.exe ThaoTacChuoi.exe LuyenThi.exe NhanVien.exe NhanVien_Contro.exe NapChongToanTuPhanSo.exe
 
 # =============================================================================
 # Built-in targets
